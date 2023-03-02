@@ -15,6 +15,14 @@ ul{
     margin-right: 115px;
 }
 
+.header-link{
+    transition: transform 0.5s;
+}
+
+.header-link:hover{
+    transform: translateX(-10px);
+}
+
 a{
     text-decoration: none;
 }
@@ -46,7 +54,7 @@ a{
 }
 
 .logo img{
-    height: 100px;
+    height: 150px;
     transition: 250ms;
 }
 
@@ -114,7 +122,7 @@ li{
 
 .hero1, .hero2{
     flex: 1;
-    margin: 0 10%;
+    margin: 0 5%;
 }
 
 .hero1{
@@ -195,9 +203,16 @@ li{
     opacity: 0.4;
 }
 
+.layer h2{
+    font-size: 32px;
+}
+
+.layer h3{
+    font-size: 25px;
+}
+
 .pirate:hover .layer{
     height: 100%;
-    width: 100%;
     background: linear-gradient(rgb(0,0,0,0.6), violet);
 }
 
@@ -210,7 +225,7 @@ li{
 .action{
     color: #141414;
     display: flex;
-    gap: 50px;
+    gap: 20%;
     align-items: center;
     justify-content: center;
     padding: 30px 0;
@@ -235,4 +250,27 @@ li{
 
 button:hover{
     transform: scale(1.1);
+}
+
+.action-text-main{
+    color: #f9faf8;
+}
+
+.source-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.source{
+    border: solid 1px #3882f6;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.source a{
+    color: black;
+    text-decoration: none;
 }
